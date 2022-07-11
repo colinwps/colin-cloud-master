@@ -1,0 +1,13 @@
+server:
+  port: 8002
+spring:
+  application:
+    name: colin-eureka-server
+eureka:
+  instance:
+    hostname: replicamain
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8003/eureka
+    fetch-registry: true
+    register-with-eureka: true
