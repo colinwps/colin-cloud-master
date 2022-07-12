@@ -9,15 +9,21 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>colin-eureka-server</artifactId>
+    <artifactId>colin-nacos-client</artifactId>
 
     <dependencies>
         <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
-    </dependencies>
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+        </dependency>
 
+
+
+    </dependencies>
 
 </project>
