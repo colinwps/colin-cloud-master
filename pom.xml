@@ -11,6 +11,7 @@
         <module>colin-eureka-server</module>
         <module>colin-eureka-client</module>
         <module>colin-nacos-client</module>
+        <module>colin-user-service</module>
     </modules>
 
     <packaging>pom</packaging>
